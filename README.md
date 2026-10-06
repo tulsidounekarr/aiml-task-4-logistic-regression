@@ -1,10 +1,10 @@
-\# AI \& ML Internship - Task 4
+# AI & ML Internship - Task 4
 
-\## Classification with Logistic Regression
+## Classification with Logistic Regression
 
 
 
-\## 1. Objective
+## 1. Objective
 
 
 
@@ -16,39 +16,39 @@ The project covers:
 
 
 
-\- Binary classification
+- Binary classification
 
-\- Train-test splitting
+- Train-test splitting
 
-\- Feature standardization
+- Feature standardization
 
-\- Logistic Regression
+- Logistic Regression
 
-\- Confusion Matrix
+- Confusion Matrix
 
-\- Precision
+- Precision
 
-\- Recall
+- Recall
 
-\- ROC-AUC
+- ROC-AUC
 
-\- ROC Curve
+- ROC Curve
 
-\- Sigmoid Function
+- Sigmoid Function
 
-\- Classification threshold tuning
-
-
-
-\---
+- Classification threshold tuning
 
 
 
-\## 2. Dataset
+---
 
 
 
-\### Breast Cancer Wisconsin Dataset
+## 2. Dataset
+
+
+
+### Breast Cancer Wisconsin Dataset
 
 
 
@@ -60,15 +60,15 @@ Dataset details:
 
 
 
-\- Samples: 569
+- Samples: 569
 
-\- Features: 30
+- Features: 30
 
-\- Classes: 2
+- Classes: 2
 
-\- Malignant samples: 212
+- Malignant samples: 212
 
-\- Benign samples: 357
+- Benign samples: 357
 
 
 
@@ -76,27 +76,27 @@ The dataset was saved locally as:
 
 
 
-```text
+
 
 data/breast\_cancer\_wisconsin.csv
 
 
 
-\## 3. Technologies Used
+## 3. Technologies Used
 
-\- Python
+- Python
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- Scikit-learn
+- Scikit-learn
 
-\- Matplotlib
+- Matplotlib
 
 
 
-\## 4. Project Structure
+## 4. Project Structure
 
 
 
@@ -132,21 +132,21 @@ aiml-task-4-logistic-regression/
 
 
 
-\## 5. Data Preprocessing
+## 5. Data Preprocessing
 
 The following preprocessing steps were performed:
 
-1\. Loaded the Breast Cancer Wisconsin dataset.
+1. Loaded the Breast Cancer Wisconsin dataset.
 
-2\. Separated features and target variable.
+2. Separated features and target variable.
 
-3\. Split the dataset into training and testing sets.
+3. Split the dataset into training and testing sets.
 
-4\. Used 80% of the data for training and 20% for testing.
+4. Used 80% of the data for training and 20% for testing.
 
-5\. Used stratified splitting to preserve the class distribution.
+5. Used stratified splitting to preserve the class distribution.
 
-6\. Standardized the features using StandardScaler.
+6. Standardized the features using StandardScaler.
 
 
 
@@ -158,7 +158,7 @@ Testing samples: 114
 
 
 
-\## 6. Logistic Regression Model
+## 6. Logistic Regression Model
 
 A Logistic Regression classifier was trained using Scikit-learn.
 
@@ -178,19 +178,19 @@ The trained model was used to predict the class labels and class probabilities o
 
 
 
-\## 7. Model Evaluation
+## 7. Model Evaluation
 
 The model was evaluated using:
 
-\- Accuracy
+- Accuracy
 
-\- Precision
+- Precision
 
-\- Recall
+- Recall
 
-\- ROC-AUC
+- ROC-AUC
 
-\- Confusion Matrix
+- Confusion Matrix
 
 
 
@@ -212,25 +212,25 @@ Results
 
 
 
-\## 8. Confusion Matrix
+## 8. Confusion Matrix
 
 The confusion matrix obtained from the test set was:
 
-\[\[41  1]
+[[41  1]
 
-&#x20;\[ 1 71]]
+&#x20;[ 1 71]]
 
 
 
 This means:
 
-\- 41 malignant samples were correctly classified.
+- 41 malignant samples were correctly classified.
 
-\- 71 benign samples were correctly classified.
+- 71 benign samples were correctly classified.
 
-\- 1 malignant sample was classified as benign.
+- 1 malignant sample was classified as benign.
 
-\- 1 benign sample was classified as malignant.
+- 1 benign sample was classified as malignant.
 
 
 
@@ -240,7 +240,7 @@ visualizations/confusion\_matrix.png
 
 
 
-\## 9. ROC Curve and ROC-AUC
+## 9. ROC Curve and ROC-AUC
 
 The ROC curve was generated using the predicted probabilities from the Logistic Regression model.
 
@@ -262,7 +262,7 @@ visualizations/roc\_curve.png
 
 
 
-\## 10. Sigmoid Function
+## 10. Sigmoid Function
 
 Logistic Regression uses the sigmoid function to convert the model's output into a probability between 0 and 1.
 
@@ -278,7 +278,7 @@ The probability can then be converted into a class prediction using a classifica
 
 
 
-\## 11. Classification Threshold Tuning
+## 11. Classification Threshold Tuning
 
 The default classification threshold of 0.50 was compared with several other thresholds.
 
@@ -316,7 +316,7 @@ visualizations/threshold\_analysis.png
 
 
 
-\## 12. Key Concepts Learned
+## 12. Key Concepts Learned
 
 Binary Classification-
 
@@ -360,11 +360,11 @@ The threshold determines the probability above which a sample is assigned to the
 
 
 
-\## 13. Files Generated
+## 13. Files Generated
 
 Python Script
 
-logistic\_regression.py
+logistic_regression.py
 
 
 
@@ -372,7 +372,7 @@ Contains the complete data loading, preprocessing, model training, evaluation, t
 
 Dataset
 
-data/breast\_cancer\_wisconsin.csv
+data/breast_cancer_wisconsin.csv
 
 
 
@@ -394,7 +394,7 @@ visualizations/threshold\_analysis.png
 
 
 
-\## 14. How to Run the Project
+## 14. How to Run the Project
 
 Clone the repository and navigate to the project directory.
 
@@ -414,7 +414,7 @@ The dataset, threshold results, and visualizations will be generated automatical
 
 
 
-\## 15. Conclusion
+## 15. Conclusion
 
 A Logistic Regression binary classification model was successfully developed using the Breast Cancer Wisconsin dataset.
 
